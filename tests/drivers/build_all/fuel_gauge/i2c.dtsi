@@ -68,3 +68,10 @@ adp5360@8 {
 		status = "okay";
 	};
 };
+
+ltc3337@a {
+	compatible = "adi,ltc3337";
+	reg = <0xa>;
+	ipeak-milliamp = <100>;
+	status = "okay";
+};
